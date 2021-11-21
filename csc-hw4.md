@@ -20,8 +20,6 @@ Yuanchun Shen 	03745935
 
 **Which groups are decisive? Are there any weak dictators? Is there an oligarchy? Is there a collegium?**
 
-> Reference: *Positive Political Theory I: Collective Preference* Page 41
-
 Suppose we have $r$ alternatives $\{x_1, x_2, ..., x_r\}$ such that $x_1 P x_2, x_2 P x_3, ..., x_{r-1} P x_r$. Since there are only 6 other members, one permanent member must strictly prefer $x_1$ over $x_2$. We assume this member to be $1$. $1$ must weakly prefer $x_j$ to $x_{j+1}$ for $j=2,3,...,r-1$ to allow $x_2 P x_3, x_3 P x_4, ..., x_{r-1} P x_r$. By transitivity, $1$ must strictly prefer $x_1$ over $x_r$. Because $1$ is a permanent member, the final relationship does not allow $x_r P x_1$. This implies that the base relation is acyclic.
 
 ## Exercise 14
@@ -43,7 +41,7 @@ In this case, $f_{narrow}=b$, $f_{broad}=a$
 
 #### (b)
 
-**Does $f_{narrow}$ satisfy Pareto-optimality? IIA? Transitive rationalizability?**
+~~**Does $f_{narrow}$ satisfy Pareto-optimality? IIA? Transitive rationalizability?**~~
 
 - $f_{narrow}$ satisfies Pareto-optimality.
 
@@ -84,11 +82,8 @@ In this case, $f_{narrow}=b$, $f_{broad}=a$
 
     
 
-  - Stronger expansion
+    ~~failed to solve this~~
 
-    
-
-    
 
 #### (c)
 
@@ -124,19 +119,17 @@ In this case, $f_{narrow}=b$, $f_{broad}=a$
 
 ### (a) 
 
-An alternative x is extremal in a preference profile $R_N$ implies
+Assume there are $k$ voters with extremal $x$ such that $xPy$ for all $y\in U \backslash {x}$, and there are $m-k$ voters with extremal $x$ such that $yPx$ for all $y \in U \backslash x$. 
 
-x P_i y for all y ∈ U\\{x} and i ∈ N, or
+- In the case that $k=0$, namely $yP_i x$ for all $i$
 
-y P_i x for all y ∈ U\\{x} and i ∈ N
+  Because of Pareto-optimality, the collective preference also have $yPx$, therefore $x$ is still extremal.
 
-Because f satisfies Pareto-optimality: 
+- In the case that $k=m$, similar to that above, $x$ is still extremal
 
-for all R_N, x, and y: x P_i y implies x P y.
+- In the case that $0 < k < m$
 
-So x is extremal in $R_N$ implies (x P y) or (y P x), for all y ∈ U\\{x}.
-
-Then x is extremal in a binary relation R.
+  Because of IIA, permutation of non-extremal alternatives does not affect $x$'s relation to each of them. Therefore $R|_{\{x,y\}}$ is fixed for any $y\in U \backslash {x}$. Therefore, $x$ can only be either $xPy$ or $yPx$, therefore, $x$ is still extremal.
 
 ### (b)
 
