@@ -1,5 +1,11 @@
 # CSC Assignment 4
 
+Hui Zheng 		03736480
+
+Qianyun Li		03736115
+
+Yuanchun Shen 	03745935
+
 ## Exercise 13
 
 #### (a) 
